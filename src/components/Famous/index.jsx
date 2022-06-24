@@ -13,7 +13,9 @@ export default function Famous(){
             <div className="container1">
 
                 <div>
-                    <img src={img1} alt="" />
+                    <div className='img'>
+                      <img src={img1} alt="" />
+                    </div>
                     <h3>Ramen de Frango</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <div className='span'>
@@ -21,7 +23,9 @@ export default function Famous(){
                     </div>
                 </div>
                 <div>
-                    <img src={img2} alt="" />
+                    <div className='img'>
+                       <img src={img2} alt="" />
+                    </div>
                     <h3>Ramen de Frango</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <div className='span'>
@@ -29,7 +33,9 @@ export default function Famous(){
                     </div>
                 </div>
                 <div>
-                    <img src={img3} alt="" />
+                    <div className='img'>
+                        <img src={img3} alt="" />
+                    </div>
                     <h3>Ramen de Frango</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <div className='span'>

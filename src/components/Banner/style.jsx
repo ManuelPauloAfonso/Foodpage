@@ -6,6 +6,7 @@ export const Container = styled.section`
 font-family: 'Montserrat', sans-serif;
 display: flex;
 align-items: center;
+flex-wrap: wrap;
 padding-top: 8rem;
 margin: 0 auto;
 justify-content: center;
@@ -42,6 +43,20 @@ gap: 19.25rem;
 img{
     width: 25rem;
     height: 33.419rem;
+}
+
+
+@media (max-width: 999px){
+    .baner{
+        
+
+        button{
+            width: 30rem;
+
+
+        }
+
+    }
 }
 
 

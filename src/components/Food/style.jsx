@@ -5,6 +5,7 @@ export const Container = styled.section`
 font-family: 'Montserrat', sans-serif;
 display: flex;
 align-items: center;
+flex-wrap: wrap;
 padding-top: 8rem;
 justify-content: center;
 gap: 7.75rem;
@@ -38,6 +39,12 @@ img{
 .link{
     margin-top: 2.5rem;
 
+}
+
+@media (max-width: 999px) {
+    .work{
+        text-align: center;
+    }
 }
 
 `

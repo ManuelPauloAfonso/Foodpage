@@ -1,5 +1,6 @@
 import { Container } from './style'
 import Logo from '../../Assets/FoodJP.svg'
+import Mobile from '../../Assets/align-right.svg'
 
 export default function Menu(){
     return(
@@ -15,6 +16,7 @@ export default function Menu(){
                         </ul>
                     </nav>
                     <button>Entrar</button>
+                    <img className='img' src={Mobile} alt="" />
                 </Container>
             </div>
         </>

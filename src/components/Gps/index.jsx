@@ -11,7 +11,7 @@ export default function Gps(){
                 </div>
                 <div className="Container">
                     <div>
-                        <div>
+                        <div className='img'>
                             <img src={Img1} alt="" />
                         </div>
                         <div className='form'>

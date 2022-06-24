@@ -13,6 +13,7 @@ h1{
     margin-top: 3.375rem;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 2.75rem;
     
     img{
@@ -44,6 +45,26 @@ h1{
     margin-top: 2rem;
     text-align: center;
 
+}
+
+@media (max-width: 999px){
+
+    .container1{
+        
+            display: flex;
+            justify-content: center;
+            text-align: center;
+
+
+            .img{
+                display: flex;
+                justify-content: center;
+
+            }
+
+    }
+
+    
 }
 
 

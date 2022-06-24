@@ -8,9 +8,9 @@ font-family: 'Montserrat', sans-serif;
 
 margin-top: 6.25rem;
 h1{
-    margin-left: 38rem;
     font-size: 3rem;
     line-height: 2.438rem;
+    text-align: center;
 
 }
 
@@ -18,6 +18,7 @@ h1{
 .container1{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 1.50rem;
     margin-top: 3rem;
 }
@@ -50,6 +51,23 @@ h1{
     padding-left: 2.5rem;
     padding-top: 2.563rem;
 
+}
+
+@media (max-width: 999px) {
+
+    h1{
+        text-align: center;
+    }
+    .container1{
+        text-align: center;
+        justify-content: center;
+        
+    }
+    .bg{
+        width: 28rem;
+        text-align: center;
+    }
+    
 }
 
 `

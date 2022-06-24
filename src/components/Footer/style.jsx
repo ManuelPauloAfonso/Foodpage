@@ -7,6 +7,7 @@ font-family: 'Montserrat', sans-serif;
 display: flex;
 margin-top: 6.25rem;
 justify-content: center;
+flex-wrap: wrap;
 gap: 6.75rem;
 
 h1{

@@ -6,9 +6,9 @@ export const Container = styled.section`
     margin-top: 6.25rem;
 
 .h1{
-        margin-left: 23rem;
         font-size: 2rem;
         line-height: 123%;
+        text-align: center;
 
 }
 
@@ -56,6 +56,39 @@ export const Container = styled.section`
 
         }
     }
+}
+@media (max-width: 999px) {
+
+    .h1{
+        text-align: center;
+    }
+    .Container{
+        
+
+        .img{
+            display: flex;
+            justify-content: center;
+        
+            
+          img{
+            width: 35rem;
+            height: 15.125rem;
+            
+
+
+          }
+            
+        
+        }
+        .form{
+            input{
+                width: 20rem;
+            }
+
+        }
+ }
+ 
+    
 }
 
 `

@@ -5,21 +5,20 @@ import styled from "styled-components"
 export const Container = styled.section`
 font-family: 'Montserrat', sans-serif;
 
-max-width: 1228px;
+
 margin-top: 6.25rem;
 h1{
-    margin-left: 34rem;
+    margin-left: 38rem;
     font-size: 3rem;
     line-height: 2.438rem;
 
 }
 
 
-.container{
+.container1{
     display: flex;
     justify-content: center;
     gap: 1.50rem;
-    margin-left: 21.625rem;
     margin-top: 3rem;
 }
 .container-info{
@@ -46,8 +45,8 @@ h1{
 .bg{
     border-radius: 16px;
     background: #F3F3F3;
-    width: 40.75rem;
-    height: 29.375rem;
+    width: 37.75rem;
+    height: 28rem;
     padding-left: 2.5rem;
     padding-top: 2.563rem;
 

@@ -6,10 +6,10 @@ export const Container = styled.section`
 font-family: 'Montserrat', sans-serif;
 display: flex;
 align-items: center;
-max-width: 1228px;
 padding-top: 8rem;
-justify-content: space-around;
 margin: 0 auto;
+justify-content: center;
+gap: 19.25rem;
 
 .baner{
     max-width: 30rem;

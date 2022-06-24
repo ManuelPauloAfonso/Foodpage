@@ -24,4 +24,9 @@ input{
 li{
     list-style: none;
 }
+.container{
+    max-width: 1229px;
+    margin: 0 auto;
+
+}
 `

@@ -5,9 +5,9 @@ export const Container = styled.section`
 font-family: 'Montserrat', sans-serif;
 display: flex;
 align-items: center;
-max-width: 1228px;
 padding-top: 8rem;
-justify-content: space-around;
+justify-content: center;
+gap: 7.75rem;
 margin: 0 auto;
 
 img{

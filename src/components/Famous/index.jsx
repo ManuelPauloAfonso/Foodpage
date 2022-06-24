@@ -6,9 +6,11 @@ import { Container } from './style'
 
 export default function Famous(){
     return(
-        <Container>
+        <>
+            <div className='container'>
+            <Container>
             <h1>Mais Populares</h1>
-            <div className="container">
+            <div className="container1">
 
                 <div>
                     <img src={img1} alt="" />
@@ -37,5 +39,8 @@ export default function Famous(){
 
             </div>
         </Container>
+            </div>
+        </>
+       
     )
 }

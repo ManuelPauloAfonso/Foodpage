@@ -5,9 +5,7 @@ export const Container = styled.header`
 
 font-family: 'Inter', sans-serif;
 display: flex;
-justify-content: space-between;
-max-width: 1228px;
-margin: 0 auto;
+justify-content: space-evenly;
 align-items: center;
 font-size: 1.5rem;
 padding-top: 2.5rem;

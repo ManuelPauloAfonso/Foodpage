@@ -4,15 +4,16 @@ export const Container = styled.section`
 
 margin-top: 6.25rem;
 font-family: 'Montserrat', sans-serif;
+
+
 h1{
     text-align: center;
 }
-.container{
+.container1{
     margin-top: 3.375rem;
     display: flex;
     justify-content: center;
-    gap: 10rem;
-    
+    gap: 2.75rem;
     
     img{
         width: 18.188rem;

@@ -6,7 +6,10 @@ export const Container = styled.section`
     margin-top: 6.25rem;
 
 .h1{
-        margin-left: 38rem;
+        margin-left: 23rem;
+        font-size: 2rem;
+        line-height: 123%;
+
 }
 
 .Container{

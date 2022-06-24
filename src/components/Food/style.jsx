@@ -42,6 +42,10 @@ img{
 }
 
 @media (max-width: 999px) {
+    img{
+        width: 25rem;
+        height: 21.875rem;
+    }
     .work{
         text-align: center;
     }
